@@ -6,6 +6,7 @@
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/rabbitmq-hello/target/" />
     <ignored path="$PROJECT_DIR$/rabbitmq-work-queue/target/" />
+    <ignored path="$PROJECT_DIR$/rabbitmq-publish-subscribe/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,11 +18,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/rabbitmq-work-queue/src/main/java/com/huangxb/NewTask.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rabbitmq-publish-subscribe/src/main/java/com/huangxb/emitLog.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+            <state relative-caret-position="450">
+              <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/rabbitmq-publish-subscribe/src/main/java/com/huangxb/reveiveLog.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="30" column="78" selection-start-line="30" selection-start-column="78" selection-end-line="30" selection-end-column="78" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -30,7 +46,7 @@
         <entry file="file://$PROJECT_DIR$/rabbitmq-work-queue/src/main/java/com/huangxb/Work.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="328">
-              <caret line="32" column="42" lean-forward="true" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
+              <caret line="32" column="42" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -60,12 +76,19 @@
         <entry file="jar://$MAVEN_REPOSITORY$/com/rabbitmq/amqp-client/5.9.0/amqp-client-5.9.0.jar!/com/rabbitmq/client/impl/recovery/AutorecoveringChannel.class">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="335">
-              <caret line="436" column="21" lean-forward="true" selection-start-line="436" selection-start-column="21" selection-end-line="436" selection-end-column="21" />
+              <caret line="436" column="21" selection-start-line="436" selection-start-column="21" selection-end-line="436" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -76,6 +99,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/rabbitmq-work-queue/src/main/java/com/huangxb/Work.java" />
+        <option value="$PROJECT_DIR$/rabbitmq-publish-subscribe/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbitmq-publish-subscribe/src/main/java/com/huangxb/emitLog.java" />
+        <option value="$PROJECT_DIR$/rabbitmq-publish-subscribe/src/main/java/com/huangxb/reveiveLog.java" />
       </list>
     </option>
   </component>
@@ -96,7 +122,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1215" />
+    <option name="x" value="-1184" />
     <option name="y" value="-54" />
     <option name="width" value="1257" />
     <option name="height" value="938" />
@@ -117,25 +143,25 @@
             <path>
               <item name="rabbitmq-tutorials" type="b2602c69:ProjectViewProjectNode" />
               <item name="rabbitmq-tutorials" type="462c0819:PsiDirectoryNode" />
-              <item name="rabbitmq-work-queue" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq-publish-subscribe" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="rabbitmq-tutorials" type="b2602c69:ProjectViewProjectNode" />
               <item name="rabbitmq-tutorials" type="462c0819:PsiDirectoryNode" />
-              <item name="rabbitmq-work-queue" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq-publish-subscribe" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="rabbitmq-tutorials" type="b2602c69:ProjectViewProjectNode" />
               <item name="rabbitmq-tutorials" type="462c0819:PsiDirectoryNode" />
-              <item name="rabbitmq-work-queue" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq-publish-subscribe" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="rabbitmq-tutorials" type="b2602c69:ProjectViewProjectNode" />
               <item name="rabbitmq-tutorials" type="462c0819:PsiDirectoryNode" />
-              <item name="rabbitmq-work-queue" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq-publish-subscribe" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -143,11 +169,26 @@
             <path>
               <item name="rabbitmq-tutorials" type="b2602c69:ProjectViewProjectNode" />
               <item name="rabbitmq-tutorials" type="462c0819:PsiDirectoryNode" />
-              <item name="rabbitmq-work-queue" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq-publish-subscribe" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="huangxb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rabbitmq-tutorials" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rabbitmq-tutorials" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq-publish-subscribe" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="huangxb" type="462c0819:PsiDirectoryNode" />
+              <item name="emitLog" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="rabbitmq-tutorials" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rabbitmq-tutorials" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq-work-queue" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -175,7 +216,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Work">
+  <component name="RunManager" selected="Application.reveiveLog">
     <configuration name="NewTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.huangxb.NewTask" />
       <module name="rabbitmq-work-queue" />
@@ -202,8 +243,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="emitLog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.huangxb.emitLog" />
+      <module name="rabbitmq-publish-subscribe" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.huangxb.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="reveiveLog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.huangxb.reveiveLog" />
+      <module name="rabbitmq-publish-subscribe" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.huangxb.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.reveiveLog" />
+        <item itemvalue="Application.emitLog" />
         <item itemvalue="Application.Work" />
         <item itemvalue="Application.NewTask" />
       </list>
@@ -219,15 +288,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1598434735987</updated>
-      <workItem from="1598434737290" duration="11475000" />
+      <workItem from="1598434737290" duration="14238000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11475000" />
+    <option name="totallyTimeSpent" value="14238000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1215" y="-54" width="1257" height="938" extended-state="0" />
+    <frame x="-1184" y="-54" width="1257" height="938" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" />
@@ -266,7 +335,7 @@
     <entry file="jar://$MAVEN_REPOSITORY$/com/rabbitmq/amqp-client/5.9.0/amqp-client-5.9.0.jar!/com/rabbitmq/client/impl/recovery/AutorecoveringChannel.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="335">
-          <caret line="436" column="21" lean-forward="true" selection-start-line="436" selection-start-column="21" selection-end-line="436" selection-end-column="21" />
+          <caret line="436" column="21" selection-start-line="436" selection-start-column="21" selection-end-line="436" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -287,7 +356,7 @@
     <entry file="file://$PROJECT_DIR$/rabbitmq-work-queue/src/main/java/com/huangxb/Work.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="328">
-          <caret line="32" column="42" lean-forward="true" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
+          <caret line="32" column="42" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -297,7 +366,41 @@
     <entry file="file://$PROJECT_DIR$/rabbitmq-work-queue/src/main/java/com/huangxb/NewTask.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
-          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+          <caret line="23" column="46" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq-publish-subscribe/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq-publish-subscribe/src/main/java/com/huangxb/emitLog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq-work-queue/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" selection-start-line="12" selection-end-line="18" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq-publish-subscribe/src/main/java/com/huangxb/reveiveLog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="30" column="78" selection-start-line="30" selection-start-column="78" selection-end-line="30" selection-end-column="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
