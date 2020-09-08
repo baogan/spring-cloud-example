@@ -8,6 +8,9 @@
     <module>rabbitmq-hello</module>
     <module>rabbitmq-work-queue</module>
     <module>rabbitmq-publish-subscribe</module>
+    <module>rabbitmq-routing</module>
+    <module>rabbitmq-topic</module>
+    <module>rabbitmq-rpc</module>
   </modules>
   <parent>
     <groupId>org.springframework.boot</groupId>

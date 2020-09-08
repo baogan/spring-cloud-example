@@ -4,6 +4,9 @@
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/rabbitmq-hello" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/rabbitmq-publish-subscribe" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rabbitmq-routing" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rabbitmq-rpc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rabbitmq-topic" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/rabbitmq-work-queue" charset="UTF-8" />
   </component>
 </project>

@@ -6,9 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="rabbitmq-work-queue" />
-        <module name="rabbitmq-publish-subscribe" />
+        <module name="rabbitmq-topic" />
         <module name="rabbitmq-hello" />
+        <module name="rabbitmq-work-queue" />
+        <module name="rabbitmq-rpc" />
+        <module name="rabbitmq-publish-subscribe" />
+        <module name="rabbitmq-routing" />
       </profile>
     </annotationProcessing>
   </component>
@@ -16,6 +19,9 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="rabbitmq-hello" options="-parameters" />
       <module name="rabbitmq-publish-subscribe" options="-parameters" />
+      <module name="rabbitmq-routing" options="-parameters" />
+      <module name="rabbitmq-rpc" options="-parameters" />
+      <module name="rabbitmq-topic" options="-parameters" />
       <module name="rabbitmq-work-queue" options="-parameters" />
     </option>
   </component>
